@@ -1,0 +1,17 @@
+{
+  "Id": "Policy1641112788186",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1641112786161",
+      "Action": "s3:*",
+      "Effect": "Deny",
+      "Resource": "arn:aws:s3:::raje123455",
+      "Principal": {
+        "AWS": [
+          "arn:aws:iam::986924227246:user/jatin"
+        ]
+      }
+    }
+  ]
+}
