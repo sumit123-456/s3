@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1639631793124",
+            "Action": [
+                "s3:CreateAccessPoint",
+                "s3:CreateJob",
+                "s3:CreateMultiRegionAccessPoint",
+                "s3:DeleteAccessPoint"
+            ],
+            "Effect": "Allow",
+            "Resource": "arn:aws:s3:::mybuck9885"
+        }
+    ]
+}
