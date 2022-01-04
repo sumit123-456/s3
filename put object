@@ -1,0 +1,22 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1641113177327",
+      "Action": [
+        "s3:CreateBucket",
+        "s3:GetObject",
+        "s3:ListBucket",
+        "s3:PutObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::raje123455"
+    },
+    {
+      "Sid": "Stmt1641116259707",
+      "Action": "*",
+      "Effect": "Deny",
+      "Resource": "*"
+    }
+  ]
+}
