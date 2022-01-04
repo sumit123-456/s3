@@ -1,0 +1,27 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "cloudwatch:DescribeInsightRules",
+                "cloudwatch:GetDashboard",
+                "cloudwatch:GetInsightRuleReport",
+                "cloudwatch:GetMetricData",
+                "cloudwatch:GetMetricStatistics",
+                "cloudwatch:ListMetrics",
+                "cloudwatch:DescribeAnomalyDetectors",
+                "cloudwatch:DescribeAlarmHistory",
+                "cloudwatch:ListMetricStreams",
+                "cloudwatch:DescribeAlarmsForMetric",
+                "cloudwatch:ListDashboards",
+                "cloudwatch:ListTagsForResource",
+                "cloudwatch:DescribeAlarms",
+                "cloudwatch:GetMetricStream",
+                "cloudwatch:GetMetricWidgetImage"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
